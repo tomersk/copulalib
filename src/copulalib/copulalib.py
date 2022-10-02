@@ -49,7 +49,7 @@ class Copula():
             raise ValueError('The dimension of array should be one.')
         
         # input array should have same zie
-        if X.size is not Y.size:
+        if X.size != Y.size:
             raise ValueError('The size of both array should be same.')
         
         # check if the name of copula family correct
